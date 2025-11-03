@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class NomeController {
 
     @GetMapping("/nome")
-    public String retornaNome(){
+    public String returnName(){
         return "Barbara Santos";
     }
 
